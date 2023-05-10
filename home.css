@@ -1,0 +1,85 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    color: #ff7200;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 90px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px;
+ 
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px; 
+   
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  padding-left: 90px;
+
+}
+
+ul li{
+    list-style: none;
+    margin-left: 80px;
+    margin-top: 27px;
+    font-size: 14px;
+padding-left: 60px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color:#b8874a ;
+}
+
+
+body{
+    height: 100%;
+    background-image: linear-gradient(rgba(255,255,255,10%),rgba(255,255,255,10%)),url(img/sweet.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.home{
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,10%),rgba(0,0,0,10%)),url(img/sweeti.jpeg);
+}
+.home h1{
+    font-size: 60px;
+    font-family: 'Great Vibes',sans-serif;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+    letter-spacing: 3px;
+}
+.home p{
+    font-size: 60px;
+    font-family: 'Dancing Script',sans-serif;
+    font-weight: 100;
+    color: #fff;
+    text-align: center;
+    padding-top: 180px;
+    letter-spacing: 6px;
+}
